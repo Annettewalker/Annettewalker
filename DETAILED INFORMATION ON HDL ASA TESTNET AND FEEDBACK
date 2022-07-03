@@ -1,0 +1,8 @@
+INFO:
+All tested, feature looks good but I did find a flaw:
+-When I tried to do a swap from Algo to OCT, I had to Opt-in, the button switched from SWAP to Opt-in, but after that process was done, the button never switched back. 
+-I also discovered I had to reload the page to get the swap button to come back.
+-This behavior does NOT happen when you have put in an amount of Algo before opting-in.
+
+FEEDBACK: 
+-After studying it for a while I found out that if you don't put an amount, but only select target ASA it'll let you opt-in and then the button switches to SWAP perfectly.
